@@ -1,0 +1,32 @@
+Incorrect Usage: invalid value "altschoolafrica.com" for flag -d: parse error
+
+NAME:
+   gobuster dns - Uses DNS subdomain enumeration mode
+
+USAGE:
+   gobuster dns command [command options] [arguments...]
+
+COMMANDS:
+   help, h  Shows a list of commands or help for one command
+
+OPTIONS:
+   --domain value, --do value            The target domain
+   --check-cname, -c                     Also check CNAME records (default: false)
+   --timeout value, --to value           DNS resolver timeout (default: 1s)
+   --wildcard, --wc                      Force continued operation when wildcard found (default: false)
+   --no-fqdn, --nf                       Do not automatically add a trailing dot to the domain, so the resolver uses the DNS search domain (default: false)
+   --resolver value                      Use custom DNS server (format server.com or server.com:port)
+   --protocol value                      Use either 'udp' or 'tcp' as protocol on the custom resolver (default: "udp")
+   --wordlist value, -w value            Path to the wordlist. Set to - to use STDIN.
+   --delay value, -d value               Time each thread waits between requests (e.g. 1500ms) (default: 0s)
+   --threads value, -t value             Number of concurrent threads (default: 10)
+   --wordlist-offset value, --wo value   Resume from a given position in the wordlist (default: 0)
+   --output value, -o value              Output file to write results to (defaults to stdout)
+   --quiet, -q                           Don't print the banner and other noise (default: false)
+   --no-progress, --np                   Don't display progress (default: false)
+   --no-error, --ne                      Don't display errors (default: false)
+   --pattern value, -p value             File containing replacement patterns
+   --discover-pattern value, --pd value  File containing replacement patterns applied to successful guesses
+   --no-color, --nc                      Disable color output (default: false)
+   --debug                               enable debug output (default: false)
+   --help, -h                            show help
